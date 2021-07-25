@@ -382,16 +382,99 @@ const moviConstructor = (selector, options) => {
 // });
 
 
+// moviConstructor('.app', {
+// 	title: 'Локи',
+// 	background: 'loki/background.jpg',
+// 	favicon: 'loki/favicon.png',
+// 	fontColor: '#ffffff',
+// 	backgroundColor: '#000000',
+// 	subColor: '#014206',
+
+// 	header: {
+// 		logo: 'loki/logo.png',
+// 		menu: [
+// 			{
+// 				title: 'Описание',
+// 				link: '#'
+// 			},
+// 			{
+// 				title: 'Трейлер',
+// 				link: '#'
+// 			},
+// 			{
+// 				title: 'Отзывы',
+// 				link: '#'
+// 			},
+// 		],
+// 		social: [
+// 			{
+// 				title: 'Twitter',
+// 				link: 'https://twitter.com',
+// 				image: 'loki/social/twitter.svg',
+// 			},
+// 			{
+// 				title: 'Instagram',
+// 				link: 'https://instagram.com',
+// 				image: 'loki/social/instagram.svg',
+// 			},
+// 			{
+// 				title: 'Facebok',
+// 				link: 'https://facebook.com',
+// 				image: 'loki/social/facebook.svg',
+// 			},
+// 		]
+// 	},
+
+// 	main : {
+//         genre: '2021, фантастика, фэнтези, боевик, приключения',
+//         rating: '8',
+//         description: 'Локи попадает в таинственную организацию «Управление временными изменениями» после того, как он украл Тессеракт, и путешествует во времени, меняя историю.',
+//         trailer: 'https://youtu.be/YrjHcYqe31g',
+//         slider: [
+//           {
+//             img: 'loki/series/series-1.jpg',
+//             title: 'Славная миссия',
+//             subtitle: 'Серия №1',
+//           }, 
+//           {
+//             img: 'loki/series/series-2.jpg',
+//             title: 'Вариант',
+//             subtitle: 'Серия №2',
+//           }, 
+//           {
+//             img: 'loki/series/series-3.jpg',
+//             title: 'Ламентис',
+//             subtitle: 'Серия №3',
+//           }, 
+//           {
+//             img: 'loki/series/series-4.jpg',
+//             title: 'Смежное событие',
+//             subtitle: 'Серия №4',
+//           },
+//           {
+//             img: 'loki/series/series-5.jpg',
+//             title: 'Путешествие в неизвестность',
+//             subtitle: 'Серия №5',
+//           },
+//           {
+//             img: 'loki/series/series-6.jpg',
+//             title: 'На все времена. Всегда',
+//             subtitle: 'Серия №6',
+//           }
+//         ]
+//       },
+// });
+
 moviConstructor('.app', {
-	title: 'Локи',
-	background: 'loki/background.jpg',
-	favicon: 'loki/favicon.png',
-	fontColor: '#ffffff',
-	backgroundColor: '#000000',
-	subColor: '#014206',
+	title: 'Чёрная Вдова',
+	background: 'BlackWidow/background.jpg',
+	favicon: 'BlackWidow/logo.png',
+	fontColor: '#000',
+	backgroundColor: '#fff',
+	subColor: '#ED1F24',
 
 	header: {
-		logo: 'loki/logo.png',
+		logo: 'BlackWidow/logo.png',
 		menu: [
 			{
 				title: 'Описание',
@@ -410,17 +493,22 @@ moviConstructor('.app', {
 			{
 				title: 'Twitter',
 				link: 'https://twitter.com',
-				image: 'loki/social/twitter.svg',
+				image: 'BlackWidow/social/twitter.svg',
 			},
 			{
 				title: 'Instagram',
 				link: 'https://instagram.com',
-				image: 'loki/social/instagram.svg',
+				image: 'BlackWidow/social/instagram.svg',
 			},
 			{
 				title: 'Facebok',
 				link: 'https://facebook.com',
-				image: 'loki/social/facebook.svg',
+				image: 'BlackWidow/social/facebook.svg',
+			},
+			{
+				title: 'VKontakte',
+				link: 'https://vk.com',
+				image: 'BlackWidow/social/vk.svg',
 			},
 		]
 	},
@@ -428,38 +516,38 @@ moviConstructor('.app', {
 	main : {
         genre: '2021, фантастика, фэнтези, боевик, приключения',
         rating: '8',
-        description: 'Локи попадает в таинственную организацию «Управление временными изменениями» после того, как он украл Тессеракт, и путешествует во времени, меняя историю.',
-        trailer: 'https://youtu.be/YrjHcYqe31g',
+        description: 'Наташе Романофф предстоит лицом к лицу встретиться со своим прошлым. Чёрной Вдове придется вспомнить о том, что было в её жизни задолго до присоединения к команде Мстителей, и узнать об опасном заговоре, в который оказываются втянуты её старые знакомые — Елена, Алексей (известный как Красный Страж) и Мелина.',
+        trailer: 'https://youtu.be/W7Pl9s3ybvA',
         slider: [
           {
-            img: 'loki/series/series-1.jpg',
-            title: 'Славная миссия',
-            subtitle: 'Серия №1',
+            img: 'BlackWidow/slider/01.jpg',
+            title: '',
+            subtitle: '',
           }, 
           {
-            img: 'loki/series/series-2.jpg',
-            title: 'Вариант',
-            subtitle: 'Серия №2',
+            img: 'BlackWidow/slider/02.jpg',
+            title: '',
+            subtitle: '',
           }, 
           {
-            img: 'loki/series/series-3.jpg',
-            title: 'Ламентис',
-            subtitle: 'Серия №3',
+            img: 'BlackWidow/slider/03.jpg',
+            title: '',
+            subtitle: '',
           }, 
           {
-            img: 'loki/series/series-4.jpg',
-            title: 'Смежное событие',
-            subtitle: 'Серия №4',
+            img: 'BlackWidow/slider/04.jpg',
+            title: '',
+            subtitle: '',
           },
           {
-            img: 'loki/series/series-5.jpg',
-            title: 'Путешествие в неизвестность',
-            subtitle: 'Серия №5',
+            img: 'BlackWidow/slider/05.jpg',
+            title: '',
+            subtitle: '',
           },
           {
-            img: 'loki/series/series-6.jpg',
-            title: 'На все времена. Всегда',
-            subtitle: 'Серия №6',
+            img: 'BlackWidow/slider/06.jpg',
+            title: '',
+            subtitle: '',
           }
         ]
       },
